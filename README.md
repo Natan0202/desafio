@@ -59,11 +59,13 @@ Cada um deles contém um arquivo de conexão com banco de dados - além de cadas
     - Seu próprio CPF
       - Logo depois está vindo as verificações, segue os trechos de código
       
-   
-  $sql = "SELECT cpf, valor FROM comum WHERE cpf = '{$cpf}' and valor <= 0";
-  $exe = mysqli_query($conne, $sql);
-  $resultado = mysqli_num_rows($exe);
+  
+  
+![image](https://user-images.githubusercontent.com/39175488/184470016-adab8fae-e071-4375-b02b-ce65e00227b9.png)
 
+Anexo 01 - Página /incluindoComum/verificar.php
+
+Verificando a busca pelo cpf e verificando se valor é superior a zero para prosseguir 
 
 
   
