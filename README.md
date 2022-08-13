@@ -59,11 +59,11 @@ Cada um deles contém um arquivo de conexão com banco de dados - além de cadas
     - Seu próprio CPF
       - Logo depois está vindo as verificações, segue os trechos de código
       
-<?php    
+   
   $sql = "SELECT cpf, valor FROM comum WHERE cpf = '{$cpf}' and valor <= 0";
   $exe = mysqli_query($conne, $sql);
   $resultado = mysqli_num_rows($exe);
-?>
+
 
 
   
