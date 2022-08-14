@@ -1,0 +1,27 @@
+Criando o Banco
+
+CREATE TABLE sistema;
+
+
+Criando tabela comum_usuários
+
+CREATE TABLE `comum` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(40) DEFAULT NULL,
+  `cpf` varchar(20) DEFAULT NULL,
+  `email` varchar(40) DEFAULT NULL,
+  `senha` varchar(30) DEFAULT NULL,
+  `valor` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+Criando tabela lojistas
+
+
+CREATE TABLE `lojista` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(40) DEFAULT NULL,
+  `cnpj` varchar(20) DEFAULT NULL,
+  `email` varchar(40) DEFAULT NULL,
+  `senha` varchar(30) DEFAULT NULL,
+  `valor` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
