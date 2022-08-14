@@ -5,6 +5,7 @@
 - Usado paradigma sequencial
 - Por causa do prazo, acabei não aprofundando na orientação a objetos
 - Não foi usado nenhum framework - Apenas: HTML, CSS, PHP e SQL (conexão feita com o XAMPP - localhost)
+- Para visualizar o saldo de cada conta é preciso verificar no próprio banco - não foi criado uma página para exebição do saldo
 
 <h1>Conexão</h1>
 
