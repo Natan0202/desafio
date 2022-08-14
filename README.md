@@ -67,5 +67,27 @@ Anexo 01 - Página /incluindoComum/verificar.php
 
 Verificando a busca pelo cpf e verificando se valor é superior a zero para prosseguir 
 
+![image](https://user-images.githubusercontent.com/39175488/184519396-07465350-5f53-4703-b6b4-3a2fec4a036d.png)
+
+Anexo 02
+Verificação se o CPF é o mesmo de remetente
+
+![image](https://user-images.githubusercontent.com/39175488/184519439-effb5aca-3e7a-48b8-b715-e13e25e4ee94.png)
+
+Anexo 03
+
+Nesse parte fazemos um while para conseguir ter acesso ao campo no SQL e usuar no programa
+Nesse caso:  $cal = $var - $valor;
+Faz o calculo do campo SQL subtraindo o valor, para verificar o saldo é inferior ao valor a ser transferido
+
+![image](https://user-images.githubusercontent.com/39175488/184519478-0ea5e43d-5458-46a2-b5f9-e63e157e59e7.png)
+
+Anexo 04
+
+Faz o processo semelhante do Anexo 03, porém faz a soma para calcular quanto terá o destinatário ao receber os valores, e com isso substitui o valor direto no SQL
+
+
+
+
 
   
